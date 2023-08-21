@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.block h1 {
+    font-size: 24px;
+}
+
+.block h1 span {
+    font-size: 24px;
+    color: red;
+
+}
+
+.flied {
+    width: 440px;
+}
+
+.flied input {
+    width: 100%;
+    padding: 10px 22px;
+}
+
+.button{
+    background: red;
+    padding: 15px 35px;
+    border: none;
+    color: red;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+.forgot-password {
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.forgot-password a {
+    color: red;
+    margin-left: 100px;
+}
